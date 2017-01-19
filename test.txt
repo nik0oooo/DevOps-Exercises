@@ -1,1 +1,2 @@
 Simple text.
+Updating with Bash.
