@@ -1,0 +1,1 @@
+{"virtualbox":{"/web":{"guestpath":"/web","hostpath":"D:/M4/Homework/H2/web","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"D:/M4/Homework/H2","disabled":false,"__vagrantfile":true}}}
