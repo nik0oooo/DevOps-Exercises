@@ -1,11 +1,5 @@
-FROM alpine:latest
-
-MAINTAINER alex <alexwhen@gmail.com>
-
-RUN apk --update add nginx
-
-COPY 2048 /usr/share/nginx/html
-
+FROM alpine
+ENV TZ=UTC
+RUN apt install -y apache2
+COPY ./index.html /var/www/html
 EXPOSE 80
-
-CMD ["nginx", "-g", "daemon off;"]
