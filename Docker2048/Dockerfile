@@ -1,5 +1,3 @@
-FROM alpine
-ENV TZ=UTC
-RUN apt install -y apache2
-COPY ./index.html /var/www/html
+FROM httpd:2.4
+COPY index.html /usr/local/apache2/htdocs/
 EXPOSE 80
